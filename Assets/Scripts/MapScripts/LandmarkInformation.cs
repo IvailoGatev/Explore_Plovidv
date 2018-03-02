@@ -5,7 +5,6 @@ using UnityEngine;
 public class LandmarkInformation : MonoBehaviour {
 
 	void OnMouseDown()
-
     {
         Debug.Log("Working");
     }
