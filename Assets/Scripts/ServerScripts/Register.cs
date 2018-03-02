@@ -11,6 +11,12 @@ public class Register : MonoBehaviour
     public InputField inputPassword;
     public InputField inputConfirmPassword;
 
+    public Text firstNameError;
+    public Text familyNameError;
+    public Text emailError;
+    public Text passwordError;
+    public Text confirmError;
+
     private string url = "http://localhost/register.php";
 
     public void NewUser()
@@ -18,37 +24,62 @@ public class Register : MonoBehaviour
         StartCoroutine(RegisterUser());
     }
 
+    void ResetErrorText()
+    {
+        firstNameError.gameObject.SetActive(false);
+        familyNameError.gameObject.SetActive(false);
+        emailError.gameObject.SetActive(false);
+        passwordError.gameObject.SetActive(false);
+        confirmError.gameObject.SetActive(false);
+    }
+
     bool ValidateData()
     {
         bool valid = true;
-        if(inputFirstName.text=="")
+        ResetErrorText();
+
+        if (inputFirstName.text=="")
         {
             valid = false;
+            firstNameError.gameObject.SetActive(true);
         }
+
         if(inputFamilyName.text == "")
         {
             valid = false;
+            familyNameError.gameObject.SetActive(true);
         }
+
         if(inputEmail.text == "")
         {
             valid = false;
+            emailError.gameObject.SetActive(true);
         }
+        else if(!inputEmail.text.Contains("@")|| !inputEmail.text.Contains("."))
+        {
+            emailError.text = "Невалиден имейл адрес!";
+            emailError.gameObject.SetActive(true);
+        }
+
         if(inputPassword.text == "")
         {
             valid = false;
+            passwordError.gameObject.SetActive(true);
         }
-        if (inputConfirmPassword.text == "" || inputConfirmPassword.text!=inputPassword.text)
+        else if (inputConfirmPassword.text == "" || inputConfirmPassword.text!=inputPassword.text)
         {
             valid = false;
+            confirmError.gameObject.SetActive(true);
         }
+
         return valid;
     }
 
     IEnumerator RegisterUser()
     {
-        WWWForm form = new WWWForm();
         if(ValidateData())
         {
+            WWWForm form = new WWWForm();
             form.AddField("firstName", inputFirstName.text);
             form.AddField("familyName", inputFamilyName.text);
             form.AddField("email", inputEmail.text);
@@ -56,11 +87,5 @@ public class Register : MonoBehaviour
             WWW www = new WWW(url, form);
             yield return www;
         }
-        else
-        {
-            Debug.Log("Nope");
-        }
-        
     }
-
 }

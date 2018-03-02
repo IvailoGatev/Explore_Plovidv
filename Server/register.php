@@ -14,6 +14,4 @@ if($result->numbrows==0)
     $query="INSERT INTO users(first_name,family_name,email,password) VALUES('$firstName','$familyName','$email','$password')";
     $result=$conn->query($query);
 }
-
-
-
+$conn->close();
