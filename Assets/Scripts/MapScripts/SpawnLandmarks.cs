@@ -13,17 +13,20 @@ public class SpawnLandmarks : MonoBehaviour
 
     void Start()
     {
-        if(!isInisialized)
+        if (!isInisialized)
         {
             count = 1;
             script = this.GetComponent<LandmarkInformation>();
             isInisialized = true;
         }
-        id = count-1;
-        count++;
-        this.gameObject.name=script.GetLandmarkName(id);
-        GameObject landmarksObject = GameObject.Find("Landmarks");
-        this.transform.parent = landmarksObject.transform;
+        else if (count != 26)
+        {
+            id = count - 1;
+            count++;
+            this.gameObject.name = script.GetLandmarkName(id);
+            GameObject landmarksObject = GameObject.Find("Landmarks");
+            this.transform.parent = landmarksObject.transform;
+        }
     }
 
     public void OnSphereClick()
