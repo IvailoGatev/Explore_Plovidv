@@ -8,6 +8,8 @@
     if($result->num_rows>0)
     {
         $user=$result->fetch_assoc();
+        echo $user["password"];
+        echo $password;
         if(password_verify($password, $user["password"]))     
         {
             echo "Добре дошли";
@@ -22,4 +24,3 @@
         echo "Нерегистриран имейл!";
     }
     $conn->close();
-

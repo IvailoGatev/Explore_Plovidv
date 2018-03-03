@@ -88,7 +88,7 @@ public class Register : MonoBehaviour
             WWW www = new WWW(url, form);
             yield return www;
             message = www.text;
-            if(message!="")
+            if(message== "Имейлът вече е зает!")
             {
                 emailError.text = message;
                 emailError.gameObject.SetActive(true);

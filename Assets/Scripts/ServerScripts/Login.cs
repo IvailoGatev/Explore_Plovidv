@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Login : MonoBehaviour
@@ -58,7 +59,7 @@ public class Login : MonoBehaviour
             WWW www = new WWW(url, form);
             yield return www;
             message = www.text;
-            if (message == "Нерегистриран имейл!")
+            if (message == "Нерегистриран имейл адрес!")
             {
                 emailError.text = message;
                 emailError.gameObject.SetActive(true);
@@ -70,7 +71,7 @@ public class Login : MonoBehaviour
             }
             else
             {
-                Debug.Log(message);
+                //SceneManager.LoadSceneAsync();
             }
         }
     }
