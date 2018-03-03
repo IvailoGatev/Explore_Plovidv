@@ -6,7 +6,7 @@ $familyName=$_POST["familyName"];
 $email=$_POST["email"];
 $password=$_POST["password"];
 $password=password_hash($password, PASSWORD_DEFAULT);
-        
+
 $query="SELECT email FROM users WHERE email='$email' ";
 $result=$conn->query($query);
 if($result->numbrows==0)
