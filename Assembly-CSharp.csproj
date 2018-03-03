@@ -283,6 +283,7 @@
      <Compile Include="Assets\Scripts\MapScripts\LoadLandmarkScene.cs" />
      <Compile Include="Assets\Scripts\MapScripts\SetZoomInterval.cs" />
      <Compile Include="Assets\Scripts\MapScripts\SpawnLandmarks.cs" />
+     <Compile Include="Assets\Scripts\ServerScripts\Login.cs" />
      <Compile Include="Assets\Scripts\ServerScripts\Register.cs" />
      <None Include="Assets\Mapbox\Core\Plugins\link.xml" />
      <None Include="Assets\Mapbox\Shaders\RasterWithTransparencyShader.shader" />

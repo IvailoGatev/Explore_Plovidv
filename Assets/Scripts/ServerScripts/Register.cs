@@ -18,6 +18,7 @@ public class Register : MonoBehaviour
     public Text confirmError;
 
     private string url = "http://localhost/register.php";
+    private string message;
 
     public void NewUser()
     {
@@ -86,6 +87,12 @@ public class Register : MonoBehaviour
             form.AddField("password", inputPassword.text);
             WWW www = new WWW(url, form);
             yield return www;
+            message = www.text;
+            if(message!="")
+            {
+                emailError.text = message;
+                emailError.gameObject.SetActive(true);
+            }
         }
     }
 }
