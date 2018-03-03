@@ -277,8 +277,10 @@
      <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorEntity.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
+     <Compile Include="Assets\Scripts\LandmarkScripts\LoadMapScene.cs" />
      <Compile Include="Assets\Scripts\MapScripts\CenterOnUser.cs" />
      <Compile Include="Assets\Scripts\MapScripts\LandmarkInformation.cs" />
+     <Compile Include="Assets\Scripts\MapScripts\LoadLandmarkScene.cs" />
      <Compile Include="Assets\Scripts\MapScripts\SetZoomInterval.cs" />
      <Compile Include="Assets\Scripts\MapScripts\SpawnLandmarks.cs" />
      <Compile Include="Assets\Scripts\ServerScripts\Register.cs" />

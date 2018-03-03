@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpawnLandmarks : MonoBehaviour
 {
@@ -23,5 +24,10 @@ public class SpawnLandmarks : MonoBehaviour
         this.gameObject.name=script.GetLandmarkName(id);
         GameObject landmarksObject = GameObject.Find("Landmarks");
         this.transform.parent = landmarksObject.transform;
+    }
+
+    public void OnSphereClick()
+    {
+        SceneManager.LoadSceneAsync("Landmark0Scene");
     }
 }
