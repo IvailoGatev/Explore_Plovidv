@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/LoginScene.unity
+=======
+- path: Assets/Scenes/Camera.unity
+>>>>>>> 9de1bb74b51739da0439561b3763157999deb989
   isLoaded: 1
   isActive: 1
