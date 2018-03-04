@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour
 {
-
-	public void LoadMap()
+    public void LoadScene(int sceneindex)
     {
-        SceneManager.LoadScene("MapScene");
-    }
-
-    public void LoadCamera()
-    {
-        SceneManager.LoadSceneAsync("CameraScene");
+        SceneManager.LoadSceneAsync(sceneindex);
     }
 
 }
