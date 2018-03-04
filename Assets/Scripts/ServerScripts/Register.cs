@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Register : MonoBehaviour
@@ -19,6 +20,7 @@ public class Register : MonoBehaviour
 
     private string url = "http://localhost/register.php";
     private string message;
+    private int landmarksCount = 26;
 
     public void NewUser()
     {
@@ -85,6 +87,7 @@ public class Register : MonoBehaviour
             form.AddField("familyName", inputFamilyName.text);
             form.AddField("email", inputEmail.text);
             form.AddField("password", inputPassword.text);
+            form.AddField("landmarksCount", landmarksCount);
             WWW www = new WWW(url, form);
             yield return www;
             message = www.text;
@@ -93,6 +96,17 @@ public class Register : MonoBehaviour
                 emailError.text = message;
                 emailError.gameObject.SetActive(true);
             }
+            else
+            {
+                PlayerPrefs.SetString("userEmail", inputEmail.text);
+                PlayerPrefs.Save();
+                SceneManager.LoadSceneAsync("MapScene");
+            }
         }
+    }
+
+    void AddLandmarksRecords()
+    {
+  
     }
 }

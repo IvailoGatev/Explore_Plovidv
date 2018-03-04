@@ -12,7 +12,7 @@
         echo $password;
         if(password_verify($password, $user["password"]))     
         {
-            echo "Добре дошли";
+            echo "Добре дошли!";
         }
         else
         {
@@ -21,6 +21,6 @@
     }
     else
     {
-        echo "Нерегистриран имейл!";
+        echo "Нерегистриран имейл адрес!";
     }
     $conn->close();

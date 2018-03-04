@@ -14,10 +14,20 @@ public class Login : MonoBehaviour
     private string url = "http://localhost/login.php";
     private string message;
 
+
+    private void Start()
+    {
+        if (PlayerPrefs.HasKey("userEmail"))
+        {
+            SceneManager.LoadSceneAsync("MapScene");
+        }
+    }
+
     public void SignIn()
     {
         StartCoroutine(LogIn());
     }
+
     void ResetErrorText()
     {
         emailError.gameObject.SetActive(false);
@@ -59,6 +69,8 @@ public class Login : MonoBehaviour
             WWW www = new WWW(url, form);
             yield return www;
             message = www.text;
+            Debug.Log(message);
+
             if (message == "Нерегистриран имейл адрес!")
             {
                 emailError.text = message;
@@ -69,10 +81,17 @@ public class Login : MonoBehaviour
                 passwordError.text = message;
                 passwordError.gameObject.SetActive(true);
             }
-            else
+            else if (message == "Добре дошли!")
             {
-                //SceneManager.LoadSceneAsync();
+                PlayerPrefs.SetString("userEmail", inputEmail.text);
+                PlayerPrefs.Save();
+                SceneManager.LoadSceneAsync("MapScene");
             }
         }
+    }
+
+    public void GoToRegisterScene()
+    {
+        SceneManager.LoadSceneAsync("RegisterScene");
     }
 }
