@@ -19,7 +19,7 @@ public class SpawnLandmarks : MonoBehaviour
             script = this.GetComponent<LandmarkInformation>();
             isInisialized = true;
         }
-        else if (count != 26)
+        if (count <= 26)
         {
             id = count - 1;
             count++;

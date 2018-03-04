@@ -18,7 +18,7 @@ public class Register : MonoBehaviour
     public Text passwordError;
     public Text confirmError;
 
-    private string url = "http://localhost/register.php";
+    private string url = "https://explore-plovdiv.000webhostapp.com/register.php";
     private string message;
     private int landmarksCount = 26;
 

@@ -11,7 +11,7 @@ public class Login : MonoBehaviour
     public Text emailError;
     public Text passwordError;
 
-    private string url = "http://localhost/login.php";
+    private string url = "https://explore-plovdiv.000webhostapp.com/login.php";
     private string message;
 
 
@@ -81,7 +81,7 @@ public class Login : MonoBehaviour
                 passwordError.text = message;
                 passwordError.gameObject.SetActive(true);
             }
-            else if (message == "Добре дошли!")
+            else
             {
                 PlayerPrefs.SetString("userEmail", inputEmail.text);
                 PlayerPrefs.Save();
