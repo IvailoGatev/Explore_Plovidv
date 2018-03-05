@@ -19,18 +19,20 @@ public class SpawnLandmarks : MonoBehaviour
             script = this.GetComponent<LandmarkInformation>();
             isInisialized = true;
         }
-        if (count <= 26)
+        if (count > 26)
         {
-            id = count - 1;
-            count++;
-            this.gameObject.name = script.GetLandmarkName(id);
-            GameObject landmarksObject = GameObject.Find("Landmarks");
-            this.transform.parent = landmarksObject.transform;
+            count = 1;
         }
+        id = count - 1;
+        count++;
+        this.gameObject.name = script.GetLandmarkName(id);
+        GameObject landmarksObject = GameObject.Find("Landmarks");
+        this.transform.parent = landmarksObject.transform;
     }
 
     public void OnSphereClick()
     {
-        SceneManager.LoadSceneAsync("Landmark0Scene");
+        string sceneName = "Landmark" + id + "Scene";
+        SceneManager.LoadSceneAsync(sceneName);
     }
 }
