@@ -19,7 +19,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour mTrackableBehaviour;
 
     #endregion // PRIVATE_MEMBER_VARIABLES
-
+    public int id;
+    string url = "https://explore-plovdiv.000webhostapp.com/landmark.php";
     #region UNTIY_MONOBEHAVIOUR_METHODS
 
     protected virtual void Start()
@@ -84,6 +85,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+        WWWForm form = new WWWForm();
+        form.AddField("email", PlayerPrefs.GetString("userEmail"));
+        form.AddField("id", id);
+        WWW www = new WWW(url, form);
     }
 
 
