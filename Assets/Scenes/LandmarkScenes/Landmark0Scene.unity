@@ -393,10 +393,9 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 78610e845a08f9b4999877668aed1300, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &797039835 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 224551285916351254, guid: 78610e845a08f9b4999877668aed1300,
-    type: 2}
+--- !u!4 &797039835 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 797039834}
 --- !u!1 &910647987
 GameObject:
@@ -796,7 +795,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0410\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u043E-\u0438\u0441\u0442\u043E\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u044F\u0442
+  m_Text: "\u0410\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u043E-\u0438\u0441\u0442\u043E\u0440\u0438\u0447\u0435\u0441\u043A\u0438
     \u0440\u0435\u0437\u0435\u0440\u0432\u0430\u0442 \"\u0421\u0442\u0430\u0440\u0438\u043D\u0435\u043D
     \u041F\u043B\u043E\u0432\u0434\u0438\u0432\""
 --- !u!222 &1423841135
