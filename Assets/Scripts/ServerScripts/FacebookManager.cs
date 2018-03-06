@@ -4,16 +4,15 @@ using Facebook.Unity;
 using System.Collections;
 using System.Collections.Generic;
 using Facebook.MiniJSON;
+using UnityEngine.SceneManagement;
 
 public class FacebookManager : MonoBehaviour
 {
-    public GameObject user;
     AccessToken token;
-    Text idtext;
+    string url = "https://explore-plovdiv.000webhostapp.com/register.php";
 
     private void Start()
     {
-        idtext = user.GetComponent<Text>();
         if (!FB.IsInitialized)
         {
             FB.Init();
@@ -56,24 +55,30 @@ public class FacebookManager : MonoBehaviour
     void DealWithFBMenus(bool isLoggedIn)
     {
         if(isLoggedIn==true)
-        FB.API("/me?fields=first_name", HttpMethod.GET, DisplayUsername);
+        FB.API("/me?fields=first_name,last_name", HttpMethod.GET, DisplayUsername);
 
     }
 
     void DisplayUsername(IResult result)
     {
 
-        Text UserName = user.GetComponent<Text>();
 
         if (result.Error == null)
         {
 
-            UserName.text = "Здравей," + result.ResultDictionary["first_name"];
+            WWWForm form = new WWWForm();
+            form.AddField("firstName", (string)result.ResultDictionary["first_name"]);
+            form.AddField("familyName", (string)result.ResultDictionary["last_name"]);
+            form.AddField("email", token.UserId);
+            form.AddField("password", "");
+            form.AddField("landmarksCount", 0);
+            WWW www = new WWW(url, form);
+            PlayerPrefs.SetString("userEmail", token.UserId);
+            PlayerPrefs.Save();
+            SceneManager.LoadSceneAsync("MapScene");
 
         }
         else {
-            UserName.text=result.Error;
-            Debug.Log(result.Error);
         }
     }
     public void Share()
@@ -103,7 +108,6 @@ public class FacebookManager : MonoBehaviour
     public void Loggingout()
     {
         FB.LogOut();
-        idtext.text = "Вход";
     }
 }
 

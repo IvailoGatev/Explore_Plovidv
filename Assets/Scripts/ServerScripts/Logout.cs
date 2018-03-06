@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Facebook.Unity;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,5 +11,6 @@ public class Logout : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("userEmail");
         SceneManager.LoadSceneAsync("LoginScene");
+        FB.LogOut();
     }
 }

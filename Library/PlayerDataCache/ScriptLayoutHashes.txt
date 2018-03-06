@@ -185,7 +185,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 3d209967cdf035358c92c176a57052b0 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.FeatureBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Facebook.Unity.Example.AppLinks
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.PoiMarkerHelper
-96fb19de772c5f4339cf6d787cb6d247 Assembly-CSharp.dll:.FacebookManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FacebookManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Facebook.Unity.Example.DialogShare
 952e18d8ea2502d98678aab3624db87e Assembly-CSharp.dll:Mapbox.Unity.Map.BasicMap
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour

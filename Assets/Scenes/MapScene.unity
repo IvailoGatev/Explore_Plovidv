@@ -719,7 +719,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 400}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1253,42 +1253,42 @@ Prefab:
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -350
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -143.91693
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224645449019854088, guid: 4750a56e4ed169641a835d1ee7568756,
         type: 2}
@@ -1353,10 +1353,10 @@ RectTransform:
   m_Father: {fileID: 1153977279}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 134}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -57, y: -61}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916991604
 MonoBehaviour:
