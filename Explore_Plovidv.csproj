@@ -606,6 +606,7 @@
     <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
     <Compile Include="Assets\Mapbox\Unity\Utilities\VectorEntity.cs" />
     <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
+    <Compile Include="Assets\Scripts\CameraFocus.cs" />
     <Compile Include="Assets\Scripts\LandmarkScripts\CheckIfVisited.cs" />
     <Compile Include="Assets\Scripts\LandmarkScripts\LoadScenes.cs" />
     <Compile Include="Assets\Scripts\MapScripts\CenterOnUser.cs" />
