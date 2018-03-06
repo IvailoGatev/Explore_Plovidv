@@ -71,7 +71,7 @@ public class FacebookManager : MonoBehaviour
             form.AddField("familyName", (string)result.ResultDictionary["last_name"]);
             form.AddField("email", token.UserId);
             form.AddField("password", "");
-            form.AddField("landmarksCount", 0);
+            form.AddField("landmarksCount", 26);
             WWW www = new WWW(url, form);
             PlayerPrefs.SetString("userEmail", token.UserId);
             PlayerPrefs.Save();
