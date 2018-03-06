@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/AccountScene.unity
+=======
+- path: Assets/Scenes/CameraScene.unity
+>>>>>>> 8c9fdcad55675027000dfb2e8bd925b3616184ad
   isLoaded: 1
   isActive: 1
