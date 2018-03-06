@@ -611,8 +611,10 @@
     <Compile Include="Assets\Scripts\MapScripts\CenterOnUser.cs" />
     <Compile Include="Assets\Scripts\MapScripts\LandmarkInformation.cs" />
     <Compile Include="Assets\Scripts\MapScripts\LoadLandmarkScene.cs" />
+    <Compile Include="Assets\Scripts\MapScripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\MapScripts\SetZoomInterval.cs" />
     <Compile Include="Assets\Scripts\MapScripts\SpawnLandmarks.cs" />
+    <Compile Include="Assets\Scripts\MenuScripts\GetData.cs" />
     <Compile Include="Assets\Scripts\ServerScripts\FacebookManager.cs" />
     <Compile Include="Assets\Scripts\ServerScripts\Login.cs" />
     <Compile Include="Assets\Scripts\ServerScripts\Logout.cs" />
@@ -638,6 +640,7 @@
     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Resources\Mapbox\MapboxConfiguration.txt" />
+    <None Include="Assets\StreamingAssets\Vuforia\PLOVEDIV.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
