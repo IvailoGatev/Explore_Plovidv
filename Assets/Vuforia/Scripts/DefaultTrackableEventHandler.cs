@@ -23,7 +23,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     #endregion // PRIVATE_MEMBER_VARIABLES
     public int id;
     public GameObject note;
-    string url = "https://explore-plovdiv.000webhostapp.com/landmark.php";
+    public string url;
     #region UNTIY_MONOBEHAVIOUR_METHODS
 
     protected virtual void Start()
