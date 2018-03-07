@@ -1,10 +1,13 @@
 Android
 SceneListBegin?
+Assets/Scenes/TitleScene.unity
 Assets/Scenes/LoginScene.unity
-Assets/Scenes/RegisterScene.unity
 Assets/Scenes/MapScene.unity
 Assets/Scenes/CameraScene.unity
+Assets/Scenes/RegisterScene.unity
 Assets/Scenes/AccountScene.unity
+Assets/Scenes/LandmarksScene.unity
+Assets/Scenes/АchievementsScene.unity
 Assets/Scenes/LandmarkScenes/Landmark0Scene.unity
 Assets/Scenes/LandmarkScenes/Landmark1Scene.unity
 Assets/Scenes/LandmarkScenes/Landmark2Scene.unity
@@ -48,6 +51,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 1db2689b3233b29a96c693c2c074a142 Assembly-CSharp.dll:Mapbox.Unity.Map.MapVisualizer
+12ed8f0c9aca195500f0dc2eb850b0fc Assembly-CSharp.dll:.GetLandmarkStatus
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.ReverseGeocodeUserInput
 74602f47ac5939fc6675c58c724452bc Assembly-CSharp.dll:Mapbox.Unity.Map.RangeAroundTransformTileProvider
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:AudienceNetwork.AdHandler
@@ -272,9 +276,12 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 0b859ec96e868c7408c743a05d53e38f Assembly-CSharp.dll:Mapbox.Examples.CameraMovement
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Facebook.Unity.Example.ConsoleBase
 4687db7a0a4f25cd0ebb1317128c81a7 Assembly-CSharp.dll:Mapbox.Examples.Playground.ReverseGeocoderExample
+343bb39730e8487471a4e67f2ba8dfd7 Assembly-CSharp.dll:.ConnectionCheck
 7afbb4d1e228c936db08a975a5721d5d Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SpawnInsideModifier
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocus
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStackBase
 7bf8b282e06673f1f43abd60f0289702 Assembly-CSharp.dll:Mapbox.Unity.Utilities.DebugTools.ScenesList
+12ed8f0c9aca195500f0dc2eb850b0fc Assembly-CSharp.dll:.GetAchievementStatus
 1db2689b3233b29a96c693c2c074a142 Assembly-CSharp.dll:Mapbox.Unity.Map.QuadTreeMapVisualizer
 3f21ae0b24592db99d731819f13bbb93 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.DirectionsFactory
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
@@ -327,7 +334,7 @@ bb2c736a6bf82df1138b83fbd7e29067 Assembly-CSharp.dll:Mapbox.Examples.PositionWit
 f6dccfc611980e48234f29ac86dfc6a1 Assembly-CSharp.dll:Mapbox.Examples.Scripts.Utilities.DragRotate
 4165b9a1ad4c7fa4d7d0027323e2e5fb Assembly-CSharp.dll:Mapbox.Unity.Map.QuadTreeTileProvider
 f6ec5144623975a0db482d778838d4f9 Assembly-CSharp.dll:Mapbox.Unity.Location.LocationProviderFactory
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
+ae91692c00a58a78fdb436bde40b27ce Assembly-CSharp.dll:.DefaultTrackableEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SpawnLandmarks
 4da4da3ccc3d73b63daf7b6b2240656e Assembly-CSharp.dll:Mapbox.Unity.Map.CameraBoundsTileProvider
 9f6f72e74d0d2ae17420927ecf5506a8 Assembly-CSharp.dll:Mapbox.Examples.SpawnOnGlobeExample
