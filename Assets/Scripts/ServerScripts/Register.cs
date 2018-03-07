@@ -21,6 +21,7 @@ public class Register : MonoBehaviour
     private string url = "https://explore-plovdiv.000webhostapp.com/register.php";
     private string message;
     private int landmarksCount = 26;
+    private int achievementsCount = 12;
 
     public void NewUser()
     {
@@ -88,6 +89,7 @@ public class Register : MonoBehaviour
             form.AddField("email", inputEmail.text);
             form.AddField("password", inputPassword.text);
             form.AddField("landmarksCount", landmarksCount);
+            form.AddField("achievementsCount", achievementsCount);
             WWW www = new WWW(url, form);
             yield return www;
             message = www.text;

@@ -14,15 +14,6 @@ public class Login : MonoBehaviour
     private string url = "https://explore-plovdiv.000webhostapp.com/login.php";
     private string message;
 
-
-    private void Start()
-    {
-        if (PlayerPrefs.HasKey("userEmail"))
-        {
-            SceneManager.LoadSceneAsync("MapScene");
-        }
-    }
-
     public void SignIn()
     {
         StartCoroutine(LogIn());

@@ -1,5 +1,4 @@
 <?php
-
 require_once "database_connect.php";
 $userEmail=$_POST["userEmail"];
 $landmarkId=$_POST["landmarkId"];

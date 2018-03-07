@@ -9,7 +9,9 @@ using UnityEngine.SceneManagement;
 public class FacebookManager : MonoBehaviour
 {
     AccessToken token;
-    string url = "https://explore-plovdiv.000webhostapp.com/register.php";
+    private string url = "https://explore-plovdiv.000webhostapp.com/register.php";
+    private int landmarksCount = 26;
+    private int achievementsCount = 12;
 
     private void Start()
     {
@@ -62,7 +64,6 @@ public class FacebookManager : MonoBehaviour
     void DisplayUsername(IResult result)
     {
 
-
         if (result.Error == null)
         {
 
@@ -71,14 +72,13 @@ public class FacebookManager : MonoBehaviour
             form.AddField("familyName", (string)result.ResultDictionary["last_name"]);
             form.AddField("email", token.UserId);
             form.AddField("password", "");
-            form.AddField("landmarksCount", 26);
+            form.AddField("landmarksCount", landmarksCount);
+            form.AddField("achievementsCount", achievementsCount);
             WWW www = new WWW(url, form);
             PlayerPrefs.SetString("userEmail", token.UserId);
             PlayerPrefs.Save();
             SceneManager.LoadSceneAsync("MapScene");
 
-        }
-        else {
         }
     }
     public void Share()
