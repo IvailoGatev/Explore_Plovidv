@@ -616,6 +616,7 @@
     <Compile Include="Assets\Scripts\MapScripts\SetZoomInterval.cs" />
     <Compile Include="Assets\Scripts\MapScripts\SpawnLandmarks.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\ConnectionCheck.cs" />
+    <Compile Include="Assets\Scripts\MenuScripts\GetAchievementStatus.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\GetData.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\GetLandmarkStatus.cs" />
     <Compile Include="Assets\Scripts\ServerScripts\FacebookManager.cs" />
