@@ -8,6 +8,8 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using System.Collections;
+using System.Collections.Generic;
 
 /// <summary>
 ///     A custom handler that implements the ITrackableEventHandler interface.
@@ -20,7 +22,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #endregion // PRIVATE_MEMBER_VARIABLES
     public int id;
-    string url = "https://explore-plovdiv.000webhostapp.com/landmark.php";
+    public GameObject note;
+    public string url;
     #region UNTIY_MONOBEHAVIOUR_METHODS
 
     protected virtual void Start()
@@ -85,12 +88,18 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+        StartCoroutine(SendData());
+    }
+    IEnumerator SendData()
+    {
+        note.SetActive(true);
         WWWForm form = new WWWForm();
         form.AddField("email", PlayerPrefs.GetString("userEmail"));
         form.AddField("id", id);
         WWW www = new WWW(url, form);
+        yield return new WaitForSecondsRealtime(3);
+        note.SetActive(false);
     }
-
 
     protected virtual void OnTrackingLost()
     {

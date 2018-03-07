@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/MapScene.unity
+=======
+- path: Assets/Scenes/AchievementsScene.unity
+>>>>>>> 2225fda2389ca91c12525d0de57e55eb7f2010db
   isLoaded: 1
   isActive: 1
