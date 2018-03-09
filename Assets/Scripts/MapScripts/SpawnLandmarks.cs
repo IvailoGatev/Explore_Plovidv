@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SpawnLandmarks : MonoBehaviour
 {
+    public Material visitedMaterial;
+
     private static LandmarkInformation script;
     private static int count;
     private static bool isInisialized;
-
     private int id;
+    private string url = "https://explore-plovdiv.000webhostapp.com/check_landmark.php";
+    private string message;
 
     void Start()
     {
@@ -28,6 +31,25 @@ public class SpawnLandmarks : MonoBehaviour
         this.gameObject.name = script.GetLandmarkName(id);
         GameObject landmarksObject = GameObject.Find("Landmarks");
         this.transform.parent = landmarksObject.transform;
+        StartCoroutine(CheckLandmarkStatus());
+    }
+
+    IEnumerator CheckLandmarkStatus()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("userEmail", PlayerPrefs.GetString("userEmail"));
+        form.AddField("landmarkId", id);
+        WWW www = new WWW(url, form);
+        yield return www;
+        message = www.text;
+        if (message != "Забележителността не е посетена!")
+        {
+            Renderer[] renderers = this.gameObject.transform.GetComponentsInChildren<Renderer>();
+            foreach (Renderer renderer in renderers)
+            {
+                renderer.material = visitedMaterial;
+            }
+        }
     }
 
     public void OnSphereClick()

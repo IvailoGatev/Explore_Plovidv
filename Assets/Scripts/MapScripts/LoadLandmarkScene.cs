@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LoadLandmarkScene : MonoBehaviour
 {
-	void OnMouseDown()
+    void OnMouseDown()
     {
         this.gameObject.transform.parent.GetComponentInParent<SpawnLandmarks>().OnSphereClick();
     }

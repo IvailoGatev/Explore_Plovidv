@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: "Assets/Scenes/\u0410chievementsScene.unity"
-=======
-- path: Assets/Scenes/LandmarkScenes/Landmark1Scene.unity
->>>>>>> 4b0f070a4d65f51540f886500cb3c6bc7e48e168
+- path: Assets/Scenes/MapScene.unity
   isLoaded: 1
   isActive: 1
