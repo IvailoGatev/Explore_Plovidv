@@ -335,7 +335,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   note: {fileID: 1105691312}
-  url: https://explore-plovdiv.000webhostapp.com/achievements.php
+  url: https://explore-plovdiv.000webhostapp.com/achievement.php
 --- !u!114 &1241655368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1149,7 +1149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   note: {fileID: 1105691312}
-  url: https://explore-plovdiv.000webhostapp.com/achievements.php
+  url: https://explore-plovdiv.000webhostapp.com/achievement.php
 --- !u!114 &1397583173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1190,7 +1190,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7ce250de5e86433a8ffea7dae9885199, type: 3}
+        m_Texture: {fileID: 2800000, guid: 26683e02ab554d93847b5e9ad3503e4d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
