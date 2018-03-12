@@ -35,7 +35,8 @@ public class LandmarkInformation : MonoBehaviour
             "Clock Tower",
             "Monument of the Soviet Warrior(Alyosha)",
             "The Brotherhood Mound",
-            "Djumaya Mosque"
+            "Djumaya Mosque",
+            "TestLandmark"
         };
     }
 

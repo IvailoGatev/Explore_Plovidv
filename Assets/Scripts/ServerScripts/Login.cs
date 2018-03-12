@@ -37,6 +37,7 @@ public class Login : MonoBehaviour
         }
         else if (!inputEmail.text.Contains("@") || !inputEmail.text.Contains("."))
         {
+            valid = false;
             emailError.text = "Невалиден имейл адрес!";
             emailError.gameObject.SetActive(true);
         }
