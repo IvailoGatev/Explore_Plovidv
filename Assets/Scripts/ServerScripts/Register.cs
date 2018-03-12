@@ -61,6 +61,7 @@ public class Register : MonoBehaviour
         }
         else if(!inputEmail.text.Contains("@")|| !inputEmail.text.Contains("."))
         {
+            valid = false;
             emailError.text = "Невалиден имейл адрес!";
             emailError.gameObject.SetActive(true);
         }
@@ -68,6 +69,12 @@ public class Register : MonoBehaviour
         if(inputPassword.text == "")
         {
             valid = false;
+            passwordError.gameObject.SetActive(true);
+        }
+        else if(inputPassword.text.Length<6)
+        {
+            valid = false;
+            passwordError.text = "Паролата е твърде кратка!";
             passwordError.gameObject.SetActive(true);
         }
         else if (inputConfirmPassword.text == "" || inputConfirmPassword.text!=inputPassword.text)

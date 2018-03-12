@@ -9,6 +9,7 @@ public class SpawnLandmarks : MonoBehaviour
 
     private static LandmarkInformation script;
     private static int count;
+    private int maxCount = 27;
     private static bool isInisialized;
     private int id;
     private string url = "https://explore-plovdiv.000webhostapp.com/check_landmark.php";
@@ -22,7 +23,7 @@ public class SpawnLandmarks : MonoBehaviour
             script = this.GetComponent<LandmarkInformation>();
             isInisialized = true;
         }
-        if (count > 26)
+        if (count > maxCount)
         {
             count = 1;
         }

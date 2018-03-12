@@ -8,6 +8,7 @@ Assets/Scenes/RegisterScene.unity
 Assets/Scenes/AccountScene.unity
 Assets/Scenes/LandmarksScene.unity
 Assets/Scenes/АchievementsScene.unity
+Assets/Scenes/CameraAchievements.unity
 Assets/Scenes/LandmarkScenes/Landmark0Scene.unity
 Assets/Scenes/LandmarkScenes/Landmark1Scene.unity
 Assets/Scenes/LandmarkScenes/Landmark2Scene.unity
@@ -34,7 +35,7 @@ Assets/Scenes/LandmarkScenes/Landmark22Scene.unity
 Assets/Scenes/LandmarkScenes/Landmark23Scene.unity
 Assets/Scenes/LandmarkScenes/Landmark24Scene.unity
 Assets/Scenes/LandmarkScenes/Landmark25Scene.unity
-Assets/Scenes/CameraAchievements.unity
+Assets/Scenes/LandmarkScenes/Landmark26Scene.unity
 SceneListEnd?
 109bc24ceb27d134c3dca242e524fca6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebugger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.HighlightFeature
