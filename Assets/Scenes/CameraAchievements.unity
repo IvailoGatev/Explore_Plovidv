@@ -1022,7 +1022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
+  id: 12
   note: {fileID: 1105691312}
   url: https://explore-plovdiv.000webhostapp.com/achievement.php
 --- !u!114 &1241655368

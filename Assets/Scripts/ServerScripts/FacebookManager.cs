@@ -10,8 +10,8 @@ public class FacebookManager : MonoBehaviour
 {
     AccessToken token;
     private string url = "https://explore-plovdiv.000webhostapp.com/register.php";
-    private int landmarksCount = 26;
-    private int achievementsCount = 12;
+    private int landmarksCount = 27;
+    private int achievementsCount = 13;
 
     private void Start()
     {

@@ -20,7 +20,7 @@ public class Register : MonoBehaviour
 
     private string url = "https://explore-plovdiv.000webhostapp.com/register.php";
     private string message;
-    private int landmarksCount = 26;
+    private int landmarksCount = 27;
     private int achievementsCount = 12;
 
     public void NewUser()

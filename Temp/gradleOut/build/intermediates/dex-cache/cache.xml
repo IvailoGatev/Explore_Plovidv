@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\75db54b4bdefbb8ed3b1c2b89b507dbd919ca223\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_6bdfc811125705abefd3a37e7155033c5881fd36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\1aee529a20171db75f3a930a9dc04eae3cf0614f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_8fd2b1328a7e99ecfea9fba046d22329ef6d0220.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\23bed374e1a77494cec726550ca9517bd9509414\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_8e2d9fe8c5090bf6b36c1ed952f291a307e86904.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\c4ff024fea5c78c144f3ceb2683a9b443528535e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_420bbdc5ec5fef62881d6e0392b3718922ae9131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\libs\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\bolts-tasks-1.4.0_9aa3abc3a0da9dff4d9d0e9fce4e6eb807b805f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\libs\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\okhttp-3.8.0_2f643307e262c34d96453d9b7e0b4fdaf0c2f8e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\320539522e96463669ef2748831f13e77325afc4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_d5aade69aa96d908f4dfdafa5236f93d2f07eaf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\libs\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\support-annotations-25.3.1_f4921ba0d7926c50fe78e2e70750b7dff6fd32fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\b27d57283269c9ed3ebdec3725d54c8f27e753a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cb80c134235df8a4d09c2bb4bb05424a9bd9cd70">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_6ed39bde3c8e5bb528d1d519dea2c3dc8df246eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2d302418aa3482b8db770278260340aed47dd37a">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_252430d82c44f5d6f8970782d8323264e1959f8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\23b5898e36711b196af7a883f297e05f1d679c8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_e3b48461cdfc3c1bedbde2e0296416a68a8d99df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\3e0e4892517093d03856cc6b719fae2b18052e96\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_0439155c5572f22ca5bcf2fc54234878cd45244e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\f7907b4a7ea89011d7a2194004d7968f56e93753\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0837fa2b478de89f0955fe1df02c3282c221e25f">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_9349c94f5aeab326101e4de435213e0271e4bb91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\libs\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\bolts-applinks-1.4.0_e045ce38cf937b79d48ba2c27398ad86cc13be36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\bfb1655febff8ea718cb3514d3065efdc8f83e78\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_a677926c552e6a2edc045584e7f5df91781afe43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\90c1029b00c31aad4d27e122496d77455b9d8d4a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fa112f9589a72edd6c8458764cd65e80a39e6d8c">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_d986b892d36b673383e21b05d14173df3eada4b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\d108bf8fae8bf076928a96dae4889ed1f6e2120e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_4b2b72976af7e92da9f31384c4ebec73b5be7b67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\fe3f0fa2442c01206730b6edb5e4738627e0b737\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_eaf96d3a58d2d7777fa5d5e4e4d5549bf484a2c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\cbf70c0fbf61ce2967c39f9d9846dbace570a0d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_bd55f7b3c72ff014f8556f48c4c25b5c5ce3c447.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\libs\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\okio-1.13.0_cdacfc9e9c1784d70cd75ebd92c54d870e63e055.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\90f506a59eda223a2d4eba5669c271d60d6a98fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3c66891071c8f6d4411a53a410ed854aa13c6d4c">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_4e0e6d9ee295cd4634b1636ebb64ae27f71f4d12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Nikolay\.android\build-cache\252897a305a8b4678d2f26b563dcfddf5a6f22ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3ccf4be3cb821c39ca176723ff1cb497588447c4">
+        <dex dex="C:\Unity Projects\Explore Plovdiv\Explore_Plovidv\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_54f3b37ecf40710983831501efd6fc362d5b2844.jar" />
+    </item>
+
+</items>

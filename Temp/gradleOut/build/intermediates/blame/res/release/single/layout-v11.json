@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Unity Projects\\Explore Plovdiv\\Explore_Plovidv\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Nikolay\\.android\\build-cache\\c4ff024fea5c78c144f3ceb2683a9b443528535e\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Unity Projects\\Explore Plovdiv\\Explore_Plovidv\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Nikolay\\.android\\build-cache\\c4ff024fea5c78c144f3ceb2683a9b443528535e\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Unity Projects\\Explore Plovdiv\\Explore_Plovidv\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Nikolay\\.android\\build-cache\\c4ff024fea5c78c144f3ceb2683a9b443528535e\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Unity Projects\\Explore Plovdiv\\Explore_Plovidv\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Nikolay\\.android\\build-cache\\c4ff024fea5c78c144f3ceb2683a9b443528535e\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Unity Projects\\Explore Plovdiv\\Explore_Plovidv\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Nikolay\\.android\\build-cache\\c4ff024fea5c78c144f3ceb2683a9b443528535e\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Unity Projects\\Explore Plovdiv\\Explore_Plovidv\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Nikolay\\.android\\build-cache\\c4ff024fea5c78c144f3ceb2683a9b443528535e\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    }
+]
