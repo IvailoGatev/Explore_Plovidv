@@ -1717,7 +1717,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 731504669}
         m_MethodName: LoadScene
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1769,7 +1769,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 731504664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c15e0b71465d69b43b2ed519d93b64b4, type: 3}
+  m_Script: {fileID: 11500000, guid: a820a20d6fc49cb42930fd53e486725b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &855025173

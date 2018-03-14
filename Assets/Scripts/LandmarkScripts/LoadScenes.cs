@@ -7,6 +7,7 @@ public class LoadScenes : MonoBehaviour
 {
     public void LoadScene(int sceneindex)
     {
+        PlayerPrefs.SetInt("SceneNum",SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadSceneAsync(sceneindex);
     }
 
