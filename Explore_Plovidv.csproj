@@ -607,8 +607,10 @@
     <Compile Include="Assets\Mapbox\Unity\Utilities\VectorEntity.cs" />
     <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
     <Compile Include="Assets\Scripts\CameraFocus.cs" />
+    <Compile Include="Assets\Scripts\GotoLandmark.cs" />
     <Compile Include="Assets\Scripts\LandmarkScripts\CheckIfVisited.cs" />
     <Compile Include="Assets\Scripts\LandmarkScripts\LoadScenes.cs" />
+    <Compile Include="Assets\Scripts\LandmarkScripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\LoadBack.cs" />
     <Compile Include="Assets\Scripts\MapScripts\CenterOnUser.cs" />
     <Compile Include="Assets\Scripts\MapScripts\LandmarkInformation.cs" />
