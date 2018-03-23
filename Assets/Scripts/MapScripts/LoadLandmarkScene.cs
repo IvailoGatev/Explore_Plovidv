@@ -6,6 +6,7 @@ public class LoadLandmarkScene : MonoBehaviour
 {
     void OnMouseDown()
     {
+        PlayerPrefs.SetInt("LastScene", 2);
         this.gameObject.transform.parent.GetComponentInParent<SpawnLandmarks>().OnSphereClick();
     }
 }
