@@ -76,6 +76,7 @@ public class FacebookManager : MonoBehaviour
             form.AddField("achievementsCount", achievementsCount);
             WWW www = new WWW(url, form);
             PlayerPrefs.SetString("userEmail", token.UserId);
+            PlayerPrefs.SetInt("colourId", 0);
             PlayerPrefs.Save();
             SceneManager.LoadSceneAsync("MapScene");
 

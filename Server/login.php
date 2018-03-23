@@ -11,6 +11,10 @@
         {
             echo "Грешна парола!";
         }
+        else
+        {
+            echo $user["colour_id"];
+        }
     }
     else
     {

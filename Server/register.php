@@ -13,7 +13,7 @@ $query="SELECT email FROM users WHERE email='$email'";
 $result=$conn->query($query);
 if($result->num_rows==0)
 {
-    $query="INSERT INTO users(first_name,family_name,email,password) VALUES('$firstName','$familyName','$email','$password')";
+    $query="INSERT INTO users(first_name,family_name,email,password, colour_id) VALUES('$firstName','$familyName','$email','$password','0')";
     $result=$conn->query($query);
     $userId=$conn->insert_id;
     for($i=0;$i<$landmarksCount;$i++)

@@ -9,5 +9,6 @@
 	$user_id =  $row['id'];
 	$sql = "UPDATE landmarks SET visited='1' WHERE user_id='".$user_id."' AND number='".$id."'";
 	$result = mysqli_query($conn ,$sql);
+        $conn->close();
 	}
 	

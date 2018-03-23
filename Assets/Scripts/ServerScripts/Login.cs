@@ -61,7 +61,6 @@ public class Login : MonoBehaviour
             WWW www = new WWW(url, form);
             yield return www;
             message = www.text;
-            Debug.Log(message);
 
             if (message == "Нерегистриран имейл адрес!")
             {
@@ -76,6 +75,7 @@ public class Login : MonoBehaviour
             else
             {
                 PlayerPrefs.SetString("userEmail", inputEmail.text);
+                PlayerPrefs.SetInt("colourId", int.Parse(message));
                 PlayerPrefs.Save();
                 SceneManager.LoadSceneAsync("MapScene");
             }
