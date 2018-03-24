@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/LoginScene.unity
-=======
-- path: Assets/Scenes/MapScene.unity
->>>>>>> 337741c66f3a31741a33557174d0a32b4085b4fa
+- path: Assets/Scenes/LandmarkScenes/Landmark26Scene.unity
   isLoaded: 1
   isActive: 1

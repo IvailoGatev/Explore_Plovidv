@@ -627,10 +627,20 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1996861247}
     - target: {fileID: 1594408750796612, guid: a69ac8e7d68052842a9caed8cfb67514, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114871612311676906, guid: a69ac8e7d68052842a9caed8cfb67514,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 114871612311676906, guid: a69ac8e7d68052842a9caed8cfb67514,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a69ac8e7d68052842a9caed8cfb67514, type: 2}

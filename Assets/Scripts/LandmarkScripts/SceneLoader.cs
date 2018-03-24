@@ -10,4 +10,10 @@ public class SceneLoader : MonoBehaviour {
         PlayerPrefs.SetInt("SceneNum", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadSceneAsync(PlayerPrefs.GetInt("LastScene"));
     }
+
+    public void LoadCamera()
+    {
+        PlayerPrefs.SetInt("SceneNum", SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadSceneAsync("CameraScene");
+    }
 }
